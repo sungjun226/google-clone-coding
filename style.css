@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.material-symbols-outlined {
+    margin-top: 7px;
+}
+
+.header-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.header-left-items {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 2px 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.header-right-items {   
+    display: flex;
+    list-style: none;
+    padding: 2px 20px;
+    margin: 15px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    border: none;
+    background-color: rgb(46, 46, 248);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.main-box-contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;   
+    gap: 30px;
+    align-items: center;
+}
+.main-inputbox {
+    position: relative;
+    display: flex;
+}
+.main-inputbox input{
+    width: 600px;
+    height: 45px;
+    border: 1px solid #e9e7e7;
+    border-radius: 20px;
+}
+.main-inputbox span {
+    position: absolute;
+    left: 20px;
+    top:5px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-menu a{
+    background-color: #faf7f7;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-top{
+    background-color: #f5f2f2;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    padding-left: 30px;
+}
+
+
+
+.footer-bottom {
+    background-color: #f5f2f2;
+}
+
+.footer-bottom-items {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-bottom-left {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.footer-bottom-right {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
